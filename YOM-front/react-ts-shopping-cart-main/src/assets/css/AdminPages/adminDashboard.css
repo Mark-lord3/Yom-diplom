@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.admin-dashboard {
+    width: 100%;
+    overflow-y: hidden;
+    padding: 1%;
+    flex-direction: column;
+}
+
+.admin-dashboard h2 {
+    height: 4%;
+    padding: 1%;
+    padding-bottom: 0;
+    color: #252525;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.admin-dashboard-details {
+    display: flex;
+    height: 100%;
+    background-color: #ECEDEF;
+    margin-top: 2%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.admin-dashboard-card {
+    padding: 1%;
+    width: 30%;
+    height: 35%;
+    background: white;
+    border-radius: 10px;
+    margin-right: 1%;
+    align-items: center;
+}
+
+.admin-dashboard-card label {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.admin-dashboard-card-detail {
+    display: flex;
+    flex: right;
+    flex-direction: column;
+    width: 60%;
+    gap: 10%;
+    height: 50%;
+    align-items: center;
+}
+
+.admin-dashboard-card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-dashboard-card-info p {
+    color: #1E1E1E;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: lowercase;
+    word-wrap: break-word
+}
+
+.admin-dashboard-card-items {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    padding-left: 5%;
+    gap: 5%;
+}
+
+.admin-dashboard-card-detail-right {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 5%;
+    height: 40%;
+}
+
+.admin-dashboard-card-detail-right-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    align-self: center;
+}
